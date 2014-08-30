@@ -5,15 +5,22 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" type="text/css" href="css/add.css">
+        <link rel="stylesheet" type="text/css" href="css/pure/form.css">
+        <link rel="stylesheet" type="text/css" href="css/pure/button.css">
     </head>
     <body>
-        <p class="title"><strong>Toby's 短网址</strong></p>
-        <p class="title">——添加新网址——</p>
-        <form action="show.php" method="get">
-            要缩短的网址：
-            <input name="url" type="url"><input value="缩！" type="submit">
+        <div class="titdiv">
+            <p class="title"><strong>Toby's 短网址</strong></p>
+            <p class="title">——添加新网址——</p>
+        </div>
+        <form class="pure-form" action="show.php" method="get">
+            <fieldset>
+                <legend>要缩短的网址</legend>
+                <input name="url" type="url">
+                <button class="pure-button" type="submit">缩短</button>
+            </fieldset>
         </form>
         <hr>
-        <p class="about">By Toby Huang (2014) 一个简陋但稳定可用的短网址程序，只是C++/Java的App和游戏写腻了后为练习PHP而作。</p>
+        <p class="about">By Toby Huang (2014) 一个简陋但稳定可用的短网址程序 <a href="https://github.com/tobyxdd/ssURL">Github</a></p>
     </body>
 </html>
