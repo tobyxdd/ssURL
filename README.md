@@ -9,4 +9,4 @@ Just upload these files to a directory of your server and configure with "config
 
 随便传到你服务器的一个目录 修改"config.php"配置好就行了
 
-DEMO - http://toby.so/url/add.html
+DEMO - http://toby.so/u/add.html
